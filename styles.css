@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  width: 400px;
+  min-height: 65px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#combination {
+  min-width: 220px;
+  height: 25px;
+  border: 2px solid gainsboro;
+  outline: none;
+}
+
+#result {
+  min-width: 390px;
+  min-height: 70px;
+  border: 2px solid gainsboro;
+  outline: none;
+  margin-top: 15px;
+}
+
+button {
+  height: 30px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}
